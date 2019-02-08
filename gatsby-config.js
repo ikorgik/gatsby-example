@@ -30,7 +30,7 @@ module.exports = {
     {
       resolve: `gatsby-source-drupal`,
       options: {
-        baseUrl: `http://drupal.docker.localhost/`,
+        baseUrl: `https://admin.systemseed.com/`,
         apiBase: `api`, // optional, defaults to `jsonapi`
       },
     },
